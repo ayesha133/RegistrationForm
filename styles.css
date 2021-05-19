@@ -1,0 +1,48 @@
+.vipEvent{
+  margin-top: 60px;
+  flex:1;
+  height: 365px;
+  background-color: rgba(245,245,245);
+  display: inline-block;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  padding: 60px;
+  box-shadow: 5px 10px 18px #888888;
+}
+body {
+  margin:0 auto;
+  text-align: center;
+  background-color: rgb(160,160,160)
+}
+
+.input {
+  margin-bottom: 30px;
+  margin-right:5px;
+  padding: 10px;
+  width:290px;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  border-bottom: 2px solid black;
+  background: transparent;
+}
+
+::placeholder{
+  color:black;
+}
+
+.btn {
+  width:250.7px;
+  height:40px;
+  margin: 0 16px 0;
+  margin-top:60px;
+  font-style: sans-serif;
+  padding: 0.8 0.9em;
+  border-radius: 0.3em;
+  position: relative;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background-color: rgb(220,220,220);
+}
